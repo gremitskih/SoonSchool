@@ -123,9 +123,14 @@
 				<div class="col-md-12 no-gutters">
 					<div class="email">
 						<h2 class="email-text">Получайте рассылку о специальных акциях и скидках к 1 сентября</h2>
-						<form method="POST" action="http://formspree.io/gremitskih-im@ek.apress.ru">
-							<input type="email" name="email" placeholder="Введите ваш email">
-							<button type="submit">Получить скидку</button>
+						<form>
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="happykids">
+							<input type="hidden" name="admin_email" value="gremitskih-im@ek.apress.ru">
+							<input type="hidden" name="form_subject" value="Подписка на Happykids">
+							<!-- END Hidden Required Fields -->
+							<input type="text" name="E-mail" placeholder="Введите ваш Email" required>
+							<button>Подписаться</button>
 						</form>
 					</div>
 				</div>
@@ -190,6 +195,7 @@
 	<script src="https://use.fontawesome.com/1211011855.js"></script>
 	<script src="js/flipclock.js"></script>
 	<script src="//cdn.playbuzz.com/widget/feed.js"></script>
+	<script src="js/script.js"></script>
 	<script>
 		var clock;
 		$(document).ready(function() {
