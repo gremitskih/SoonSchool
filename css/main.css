@@ -1,0 +1,153 @@
+@font-face {
+	font-family: Calibri;
+	src: url(../fonts/Calibri.ttf);
+}
+body {
+	font-family: Calibri;
+	color: black;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.no-gutters {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.no-gleft {
+	padding-left: 0 !important;
+}
+.no-gright {
+	padding-right: 0 !important;
+}
+.header {
+	position: relative;
+	height: 760px;
+	background: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.header-text {
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	overflow: visible;
+}
+p {
+	font-size: 20px;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 64px;
+}
+h2,
+.game_title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	text-align: center;
+	padding: 40px 0;
+	line-height: 52.5px;
+}
+span.thin {
+	font-size: 33px;
+}
+.text-block p {
+	text-align: center;
+	padding: 10px 0;
+}
+p.bold {
+	font-weight: 700;
+	padding: 20px 0;
+}
+p.white,
+h1,
+p.buy {
+	color: white;
+}
+.clock {
+	padding-left: 50px;
+}
+.test {
+	height: 574px;
+	background-color: #ecd9ea;
+}
+.tovar_row {
+	padding: 15px 0;
+}
+p.tovar-bold,
+p.price,
+p.tovar,
+p.buy {
+	font-size: 16px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+p.tovar-bold,
+p.price {
+	font-weight: 700;
+}
+p.tovar-bold {
+		padding-top: 10px;
+}
+p.buy {
+	width: 80px;
+	background: url(../img/button-01.svg);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-size: 70px;
+	text-align: center;
+}
+.gray_bcg {
+	background-color: #f5f5f5;
+}
+h2.email-text {
+	padding-top: 330px;
+	width: 66.6%;
+	margin: 0 auto;
+}
+form {
+	width: 66.6%;
+	margin: 0 auto;
+}
+input {
+	width: 79%;
+	height: 40px;
+}
+button {
+	font-size: 16px;
+	padding-top: 1px;
+	width: 20%;
+	background-color: #d11154;
+	color: white;
+	border: 0;
+	height: 38px;
+}
+.email {
+	height: 611px;
+	background: url(../img/rassilka.jpg);
+}
+footer {
+	height: 110px;
+	background-color: #d11154;
+}
+.about_us {
+	width: 66.6%;
+	margin: 0 auto;
+}
+img.yapok {
+	width: 30%;
+	padding-top: 30px;
+	float: left;
+	margin-right: 300px;
+}
+i.fa {
+	color: white;
+	padding: 10px;
+	font-size: 40px;
+	padding-top: 35px;
+}
