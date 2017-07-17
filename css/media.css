@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 24px;
+	}
+	p {
+		font-size: 16px;
+	}
+	h2.blog-name {
+		font-size: 28px;
+	}
+	h2, .game_title {
+		font-size: 19px;
+		line-height: 30px;
+	}
+	input {
+		width: 55%;
+	}
+	button {
+		width: 43%;
+	}
+	.col-md-4 img,
+	.col-md-6 img {
+		padding: 10px 0;
+	}
+	i.fa {
+		font-size: 36px;
+	}
+	form {
+		width: 80%;
+	}
+}

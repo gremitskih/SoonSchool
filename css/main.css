@@ -10,6 +10,10 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+#wrapper {
+	max-width: 1920px;
+	margin: 0 auto;
+}
 .no-gutters {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
@@ -22,8 +26,8 @@ img {
 }
 .header {
 	position: relative;
-	height: 760px;
-	background: url(../img/header.jpg);
+	/*height: 760px;*/
+	/*background: url(../img/header.jpg);*/
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -71,6 +75,15 @@ p.buy {
 .clock {
 	padding-left: 50px;
 }
+h2.blog-name {
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	text-align: left;
+	padding: 0;
+}
 .test {
 	height: 574px;
 	background-color: #ecd9ea;
@@ -92,7 +105,7 @@ p.price {
 	font-weight: 700;
 }
 p.tovar-bold {
-		padding-top: 10px;
+	padding-top: 10px;
 }
 p.buy {
 	width: 80px;
@@ -130,9 +143,10 @@ button {
 .email {
 	height: 611px;
 	background: url(../img/rassilka.jpg);
+	background-size: cover;
+	background-position: center center;
 }
 footer {
-	height: 110px;
 	background-color: #d11154;
 }
 .about_us {

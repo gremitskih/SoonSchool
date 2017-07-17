@@ -7,13 +7,17 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/flipclock.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
+<div id="wrapper">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 no-gutters">
 				<div class="header">
+				<img src="img/header.jpg" alt="">
 					<div class="header-text">
 						<p class="white">Проект «Я Покупаю»</p>
 						<h1>Счастливое детство</h1>
@@ -37,7 +41,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-8 col-md-offset-2 hidden-xs">
 				<h2>До 1 сентября осталось:</h2>
 				<div class="clock"></div>
 			</div>
@@ -54,12 +58,14 @@
 				</div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-9 no-gleft"><img src="img/blogs_pervoklassniki_s_rancem.jpg" alt=""></div>
-				<div class="col-md-3 no-gleft"><img src="img/tovar_with_price_devochka1.png" alt=""></div>
+				<div class="col-md-9"><img src="img/blogs_pervoklassniki_s_rancem.jpg" alt="">
+				<h2 class="blog-name">Личный опыт: как выбрать ранец для первоклассника?</h2>
+				</div>
+				<div class="col-md-3 no-gleft hidden-xs"><img src="img/tovar_with_price_devochka1.png" alt=""></div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-4 no-gleft">
-					<img src="img/Tovar_devochki_v_belom.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/10kingdom.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Платье для ученицы 3 класса</p>
 						<p class="tovar">Классическое решение для элегантной умницы</p>
@@ -67,8 +73,8 @@
 						<p class="buy">Купить</p>
 					</div>
 				</div>
-				<div class="col-md-4 no-gleft">
-					<img src="img/tovar_detskiy-velosiped.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/Ambar_mebel.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Велосипед для ученицы 9 класса</p>
 						<p class="tovar">Классическое решение для элегантной умницы</p>
@@ -76,8 +82,8 @@
 						<p class="buy">Купить</p>
 					</div>
 				</div>
-				<div class="col-md-4 no-gleft">
-					<img src="img/tovar_watch.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/Feechka.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Будильник для всех</p>
 						<p class="tovar">Разбудит всю семью!</p>
@@ -87,12 +93,14 @@
 				</div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-9 no-gleft"><img src="img/blogs_malchik_zavtrak.jpg" alt=""></div>
-				<div class="col-md-3 no-gleft"><img src="img/tovar_devochka2.png" alt=""></div>
+				<div class="col-md-9 "><img src="img/blogs_malchik_zavtrak.jpg" alt="">
+				<h2 class="blog-name">Меню «на пятёрку»: составляем рацион школьника на неделю</h2>
+				</div>
+				<div class="col-md-3 no-gleft hidden-xs"><img src="img/Goods/Kreslashop.jpg" alt=""></div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-4 no-gleft">
-					<img src="img/tovar_komnata_i_stol.jpg" alt="">
+				<div class="col-md-4 ">
+					<img src="img/Goods/Formula_stilya.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Платье для ученицы 3 класса</p>
 						<p class="tovar">Классическое решение для элегантной умницы</p>
@@ -100,8 +108,8 @@
 						<p class="buy">Купить</p>
 					</div>
 				</div>
-				<div class="col-md-4 no-gleft">
-					<img src="img/tovar_mnogo_detej.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/Okodeko.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Велосипед для ученицы 9 класса</p>
 						<p class="tovar">Классическое решение для элегантной умницы</p>
@@ -109,8 +117,8 @@
 						<p class="buy">Купить</p>
 					</div>
 				</div>
-				<div class="col-md-4 no-gleft">
-					<img src="img/tovar_devochka_i_malchik.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/Sunny_toy.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Будильник для всех</p>
 						<p class="tovar">Разбудит всю семью!</p>
@@ -120,7 +128,7 @@
 				</div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-12 no-gutters">
+				<div class="col-md-12">
 					<div class="email">
 						<h2 class="email-text">Получайте рассылку о специальных акциях и скидках к 1 сентября</h2>
 						<form>
@@ -136,12 +144,13 @@
 				</div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-9 no-gleft"><img src="img/blogs_pervoklassniki_s_rancem.jpg" alt=""></div>
-				<div class="col-md-3 no-gleft"><img src="img/tovar_with_price_devochka1.png" alt=""></div>
+				<div class="col-md-9"><img src="img/blogs_komnata_pervoklasnika.jpg" alt="">
+				<h2 class="blog-name">Комната для первоклассника: семь вопросов, которые задают родители</h2></div>
+				<div class="col-md-3 no-gleft hidden-xs"><img src="img/Goods/orbita_mebel.jpg" alt=""></div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-4 no-gleft">
-					<img src="img/Tovar_devochki_v_belom.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/angstrem.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Платье для ученицы 3 класса</p>
 						<p class="tovar">Классическое решение для элегантной умницы</p>
@@ -149,8 +158,8 @@
 						<p class="buy">Купить</p>
 					</div>
 				</div>
-				<div class="col-md-4 no-gleft">
-					<img src="img/tovar_detskiy-velosiped.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/kupistol.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Велосипед для ученицы 9 класса</p>
 						<p class="tovar">Классическое решение для элегантной умницы</p>
@@ -158,8 +167,76 @@
 						<p class="buy">Купить</p>
 					</div>
 				</div>
-				<div class="col-md-4 no-gleft">
-					<img src="img/tovar_watch.jpg" alt="">
+				<div class="col-md-4">
+					<img src="img/Goods/mebeL_liberty.jpg" alt="">
+					<div class="gray_bcg">
+						<p class="tovar-bold">Будильник для всех</p>
+						<p class="tovar">Разбудит всю семью!</p>
+						<p class="price">9000 ₽</p>
+						<p class="buy">Купить</p>
+					</div>
+				</div>
+			</div>
+				<div class="row tovar_row">
+				<div class="col-md-9"><img src="img/blogs_devochka_za_stolom.jpg" alt="">
+				<h2 class="blog-name">Парта и стул для школьника: как выбрать и сколько это стоит?</h2></div>
+				<div class="col-md-3 no-gleft hidden-xs"><img src="img/tovar_with_price_devochka1.png" alt=""></div>
+			</div>
+			<div class="row tovar_row">
+				<div class="col-md-4">
+					<img src="img/Goods/angstrem.jpg" alt="">
+					<div class="gray_bcg">
+						<p class="tovar-bold">Платье для ученицы 3 класса</p>
+						<p class="tovar">Классическое решение для элегантной умницы</p>
+						<p class="price">9000 ₽</p>
+						<p class="buy">Купить</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/Goods/kupistol.jpg" alt="">
+					<div class="gray_bcg">
+						<p class="tovar-bold">Велосипед для ученицы 9 класса</p>
+						<p class="tovar">Классическое решение для элегантной умницы</p>
+						<p class="price">9000 ₽</p>
+						<p class="buy">Купить</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/Goods/mebeL_liberty.jpg" alt="">
+					<div class="gray_bcg">
+						<p class="tovar-bold">Будильник для всех</p>
+						<p class="tovar">Разбудит всю семью!</p>
+						<p class="price">9000 ₽</p>
+						<p class="buy">Купить</p>
+					</div>
+				</div>
+			</div>
+							<div class="row tovar_row">
+				<div class="col-md-9"><img src="img/blogs_shkolnaya_forma.jpg" alt="">
+				<h2 class="blog-name">Стиль без ущерба комфорту: о чем надо знать, выбирая школьную форму</h2></div>
+				<div class="col-md-3 no-gleft hidden-xs"><img src="img/tovar_with_price_devochka1.png" alt=""></div>
+			</div>
+			<div class="row tovar_row">
+				<div class="col-md-4">
+					<img src="img/Goods/angstrem.jpg" alt="">
+					<div class="gray_bcg">
+						<p class="tovar-bold">Платье для ученицы 3 класса</p>
+						<p class="tovar">Классическое решение для элегантной умницы</p>
+						<p class="price">9000 ₽</p>
+						<p class="buy">Купить</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/Goods/kupistol.jpg" alt="">
+					<div class="gray_bcg">
+						<p class="tovar-bold">Велосипед для ученицы 9 класса</p>
+						<p class="tovar">Классическое решение для элегантной умницы</p>
+						<p class="price">9000 ₽</p>
+						<p class="buy">Купить</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="img/Goods/mebeL_liberty.jpg" alt="">
 					<div class="gray_bcg">
 						<p class="tovar-bold">Будильник для всех</p>
 						<p class="tovar">Разбудит всю семью!</p>
@@ -169,18 +246,20 @@
 				</div>
 			</div>
 			<div class="row tovar_row">
-				<div class="col-md-6 no-gleft">
+				<div class="col-md-6">
 					<img src="img/five_children.jpeg" alt="">
+					<h2 class="blog-name">Скоро в школу: пять вещей, которые необходимо сделать в августе</h2>
 				</div>
-				<div class="col-md-6 no-gleft">
+				<div class="col-md-6">
 					<img src="img/child_flower.jpg" alt="">
+					<h2 class="blog-name">Советы бывалых: пройти медосмотр к школе и остаться здоровым</h2>
 				</div>
 			</div>
 			<!-- Партнерский блок -->
 <!-- 			<div class="row tovar_row">
 				<h2>— Партнеры проекта—</h2>
 			</div> -->
-			<div class="row tovar_row">
+			<div class="row">
 				<div class="col-sm-12 no-gutters">
 					<footer>
 						<div class="about_us">
@@ -191,6 +270,7 @@
 			</div>
 		</div>
 	</div>
+		</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/1211011855.js"></script>
 	<script src="js/flipclock.js"></script>
@@ -214,5 +294,6 @@
 			clock.start();
 		});
 	</script>
+
 </body>
 </html>
