@@ -165,3 +165,12 @@ i.fa {
 	font-size: 40px;
 	padding-top: 35px;
 }
+div.price {
+	font-weight: 700;
+	position: absolute;
+	bottom: 20%;
+	color: white;
+	background-color: #d21555;
+	padding: 20px;
+	font-size: 20px
+}
